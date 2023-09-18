@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Poppins:wght@100;400&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Poppins:wght@100;400&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Nunito+Sans:opsz,wght@6..12,300&family=Poppins:wght@100;400&family=Roboto:wght@300&display=swap');
+
+
+/* color: var(--blue); */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    /* color: #272A3D; */
+    background-color: #b8c1ec;
+    font-family: 'Nunito Sans',sans-serif;
+}
+#home{
+    background-color: #232946;
+}
+
+#about{
+    background-color: #d4d8f0;
+}
+#service{
+    background-color: #f8f5f2;
+}
+#portfolio{
+    background-color: #f8f5f2;
+}
+#contact{
+    background-color: #d4d8f0;
+}
+
+
+#navbar{
+    position: static;
+    top: 0;
+    z-index: 10;
+    background-color: #232946;
+}
+.nav-link{
+    color: #d4d8f0;
+}
+.nav-link:hover{
+    color: #eebbc3;
+}
+.nav-link:active{
+    color: #eebbc3;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.inner{
+    overflow: hidden;
+}
+.card img{
+    transition: 1s;
+}
+.card img:hover{
+    transform: scale(1.5);
+    transition: 1s;
+}
+input{
+    height: 60px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
